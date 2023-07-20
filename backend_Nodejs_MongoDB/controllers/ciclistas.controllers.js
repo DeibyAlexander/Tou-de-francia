@@ -85,5 +85,5 @@ export {
     obtainOneCiclista,
     insertCiclista,
     deleteCiclista,
-    updateCiclista
+    updateCiclista,
 }

@@ -10,11 +10,25 @@
 }
 
 .bg-light{
-    border-radius: 40% !important;
+    border-radius: 5% !important;
 }
 
 .card{
-    border-radius: 100px !important;
+    /* border-radius: 100px !important; */
     background-color: rgba(224, 224, 224, 0.801) !important;
 }
+.contenedor{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 20px;
 
+
+
+}
+/* 
+.card-imagen{
+    max-width:380px; 
+    max-height:100vh; 
+    padding-top:20px;
+}
+ */

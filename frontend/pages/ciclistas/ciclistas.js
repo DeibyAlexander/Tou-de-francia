@@ -11,12 +11,13 @@ async function showCiclistas(){
     data.forEach((ciclista,index) => {
         const {_id,nombre,edad,país, equipo, victorias}= ciclista;
         bodyCard.innerHTML+=`
-        <div class="col-12 col-md-4 mb-4">
+        <div class="col-12 col-md-4 mb-4 ">
                     <div class="card h-100">
-                        <a href="shop-single.html">
-                            <img src="../../assets/img/mountain-bike-g2568f8277_1280.jpg" class="card-img-top" alt="...">
+                        <a href="shop-single.html" class="h-100">
+                            <img src="../../assets/img/banner_img_01.jpg" class="card-img-top" alt="...">
                         </a>
                         <div class="card-body">
+                        
                             <ul class="list-unstyled d-flex justify-content-between">
                            
                                 <li class="text-muted text-right">${index+1}</li>

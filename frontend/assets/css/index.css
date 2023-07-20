@@ -1,0 +1,20 @@
+
+.navbar{
+    background-image: url(../../assets/img/sun-tornado\(1\).svg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.encabezado{
+    color: white !important;
+}
+
+.bg-light{
+    border-radius: 40% !important;
+}
+
+.card{
+    border-radius: 100px !important;
+    background-color: rgba(224, 224, 224, 0.801) !important;
+}
+
